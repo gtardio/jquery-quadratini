@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Sedgwick Ave', cursive;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+.container {
+  margin: 0 auto;
+  width: 642px;
+  height: 642px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.quadrato {
+  float: left;
+  height: 80px;
+  width: 80px;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.rosso {
+  float: left;
+  height: 80px;
+  width: 80px;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
